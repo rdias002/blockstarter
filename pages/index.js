@@ -39,19 +39,6 @@ class CampaignIndex extends Component {
       }
     });
 
-    /* const items = this.props.campaigns.map(address => {
-      return {
-        header: address,
-        meta: address,
-        description: (
-          <Link route={`/campaigns/${address}`}>
-            <a>View Campaign</a>
-          </Link>
-        ),
-        fluid: true
-      }
-    }); */
-
     return <Card.Group items={items} />;
   };
 
