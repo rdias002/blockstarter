@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "dev": "node server.js"
+    "dev2": "next dev",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "ISC",
